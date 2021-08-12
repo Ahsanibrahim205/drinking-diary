@@ -1,0 +1,3007 @@
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/x-icon;base64,">
+<title>Application Title</title>
+<link rel="stylesheet" href="app/styles/app-style.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellkom | Be Well - Perform Well - Live Well Longer</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="app/styles/newcss.css">
+<link rel="stylesheet" href="app/styles/bootstrap.min.css">
+<link rel="stylesheet" href="app/styles/bootstrap-theme.min.css">
+<link rel="stylesheet" href="app/styles/fontAwesome.css">
+<link rel="stylesheet" href="app/styles/light-box.css">
+<link rel="stylesheet" href="app/styles/owl-carousel.css">
+<link rel="stylesheet" href="app/styles/templatemo-style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+<script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<div class="page-content">
+            <section id="video" class="content-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <h1>Weekly Drinking  <em>Diary</em></h1>
+                        </div>
+                        <div class="text-content">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>Day</td>
+                                <td>When</td>
+                                <td>Where
+                                    </td>
+                                <td>Drinks</td>
+                                <td>Units</td>
+                                <td>Total (Units)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form>
+<button  style="background-color: transparent;border:none;" id="newbtn1"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc1" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt1" name="text" cols="10" rows="1" class="form-control" placeholder="Monday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn2"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc2" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt2" name="text" cols="10" rows="1" class="form-control" placeholder="Tuesday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn3"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc3" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt3" name="text" cols="10" rows="1" class="form-control" placeholder="Wednesday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn4"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc4" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt4" name="text" cols="10" rows="1" class="form-control" placeholder="Thursday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn5"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc5" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt5" name="text" cols="10" rows="1" class="form-control" placeholder="Friday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn6"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc6" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt6" name="text" cols="10" rows="1" class="form-control" placeholder="Saturday"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn7"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc7" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt7" name="text" cols="10" rows="1" class="form-control" placeholder="Sunday"></textarea>
+</form>
+                                    </form>
+                                </td>
+                                <td>
+                                    <button  style="background-color: transparent;border:none;" id="newbtn8"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                               <div id="newc8" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt8" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn9"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc9" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt9" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn10"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc10" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt10" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+
+<button  style="background-color: transparent;border:none;" id="newbtn11"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc11" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt11" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn12"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc12" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt12" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn13"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc13" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt13" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+
+<button  style="background-color: transparent;border:none;" id="newbtn14"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                     <div id="newc14" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt14" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+                                    </form>
+                                </td>
+                                <td>
+                                    <button  style="background-color: transparent;border:none;" id="newbtn15"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                                    <div id="newc15" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt15" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn16"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc16" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt16" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+
+<button  style="background-color: transparent;border:none;" id="newbtn17"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc17" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt17" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn18"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc18" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt18" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn19"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc19" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt19" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn20"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc20" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt20" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn21"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc21" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt21" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+                                </td>
+                                <td>
+
+<button  style="background-color: transparent;border:none;" id="newbtn22"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc22" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt22" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn23"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc23" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt23" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn24"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc24" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt24" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn25"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc25" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt25" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn26"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc26" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt26" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn27"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc27" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt27" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn28"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc28" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt28" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+                                </td>
+                                  <td>
+<button  style="background-color: transparent;border:none;" id="newbtn29"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc29" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt29" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn30"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc30" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt30" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn31"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc31" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt31" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn32"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc32" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt32" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn33"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc33" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt33" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn34"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc34" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt34" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn35"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc35" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt35" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+
+                                </td>
+                                <td>
+<button  style="background-color: transparent;border:none;" id="newbtn36"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc36" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt36" name="text" cols="10" rows="1" class="form-control"></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn37"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc37" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt37" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn38"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc38" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt38" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn39"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc39" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt39" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn40"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc40" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt40" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn41"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc41" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt41" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+<button  style="background-color: transparent;border:none;" id="newbtn42"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc42" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt42" name="text" cols="10" rows="1" class="form-control" ></textarea>
+</form>
+
+
+    
+                                </td>
+                            </tr>
+                        </table>
+                         <button  style="background-color: transparent;border:none;" id="newbtn43"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+<div id="newc43" style="display:none">
+<table  width="100%">
+      <tr>
+        <td><input id="subscriptionKey" type="hidden" type="text" size="40" value="bea8ac191ce041ecbcabc85e062630f5"></td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="serviceRegion" type="text" size="40" value="westeurope"></td>
+      </tr>
+</table>
+</div>
+<form>
+<textarea  id="newtxt43" name="text" cols="4" rows="1" class="form-control" ></textarea>
+</form>
+                        </div>  
+
+            </section>     
+</div>
+<script>
+
+    // status fields and start button in UI
+
+    var newtxt1,
+newtxt2,
+newtxt3,
+newtxt4,
+newtxt5,
+newtxt6,
+newtxt7,
+newtxt8,
+newtxt9,
+newtxt10,
+newtxt11,
+newtxt12,
+newtxt13,
+newtxt14,
+newtxt15,
+newtxt16,
+newtxt17,
+newtxt18,
+newtxt19,
+newtxt20,
+newtxt21,
+newtxt22,
+newtxt23,
+newtxt24,
+newtxt25,
+newtxt26,
+newtxt27,
+newtxt28,
+newtxt29,
+newtxt30,
+newtxt31,
+newtxt32,
+newtxt33,
+newtxt34,
+newtxt35,
+newtxt36,
+newtxt37,
+newtxt38,
+newtxt39,
+newtxt40,
+newtxt41,
+newtxt42,
+newtxt43;
+
+    var newbtn1,
+newbtn2,
+newbtn3,
+newbtn4,
+newbtn5,
+newbtn6,
+newbtn7,
+newbtn8,
+newbtn9,
+newbtn10,
+newbtn11,
+newbtn12,
+newbtn13,
+newbtn14,
+newbtn15,
+newbtn16,
+newbtn17,
+newbtn18,
+newbtn19,
+newbtn20,
+newbtn21,
+newbtn22,
+newbtn23,
+newbtn24,
+newbtn25,
+newbtn26,
+newbtn27,
+newbtn28,
+newbtn29,
+newbtn30,
+newbtn31,
+newbtn32,
+newbtn33,
+newbtn34,
+newbtn35,
+newbtn36,
+newbtn37,
+newbtn38,
+newbtn39,
+newbtn40,
+newbtn41,
+newbtn42,
+newbtn43;
+
+    // subscription key and region for speech services.
+    var subscriptionKey, serviceRegion, languageTargetOptions, languageSourceOptions;
+    var SpeechSDK;
+    var recognizerone;
+
+
+      newbtn1 = document.getElementById("newbtn1");
+newbtn2 = document.getElementById("newbtn2");
+newbtn3 = document.getElementById("newbtn3");
+newbtn4 = document.getElementById("newbtn4");
+newbtn5 = document.getElementById("newbtn5");
+newbtn6 = document.getElementById("newbtn6");
+newbtn7 = document.getElementById("newbtn7");
+newbtn8 = document.getElementById("newbtn8");
+newbtn9 = document.getElementById("newbtn9");
+newbtn10 = document.getElementById("newbtn10");
+newbtn11 = document.getElementById("newbtn11");
+newbtn12 = document.getElementById("newbtn12");
+newbtn13 = document.getElementById("newbtn13");
+newbtn14 = document.getElementById("newbtn14");
+newbtn15 = document.getElementById("newbtn15");
+newbtn16 = document.getElementById("newbtn16");
+newbtn17 = document.getElementById("newbtn17");
+newbtn18 = document.getElementById("newbtn18");
+newbtn19 = document.getElementById("newbtn19");
+newbtn20 = document.getElementById("newbtn20");
+newbtn21 = document.getElementById("newbtn21");
+newbtn22 = document.getElementById("newbtn22");
+newbtn23 = document.getElementById("newbtn23");
+newbtn24 = document.getElementById("newbtn24");
+newbtn25 = document.getElementById("newbtn25");
+newbtn26 = document.getElementById("newbtn26");
+newbtn27 = document.getElementById("newbtn27");
+newbtn28 = document.getElementById("newbtn28");
+newbtn29 = document.getElementById("newbtn29");
+newbtn30 = document.getElementById("newbtn30");
+newbtn31 = document.getElementById("newbtn31");
+newbtn32 = document.getElementById("newbtn32");
+newbtn33 = document.getElementById("newbtn33");
+newbtn34 = document.getElementById("newbtn34");
+newbtn35 = document.getElementById("newbtn35");
+newbtn36 = document.getElementById("newbtn36");
+newbtn37 = document.getElementById("newbtn37");
+newbtn38 = document.getElementById("newbtn38");
+newbtn39 = document.getElementById("newbtn39");
+newbtn40 = document.getElementById("newbtn40");
+newbtn41 = document.getElementById("newbtn41");
+newbtn42 = document.getElementById("newbtn42");
+newbtn43 = document.getElementById("newbtn43");
+
+      subscriptionKey = document.getElementById("subscriptionKey");
+      serviceRegion = document.getElementById("serviceRegion");
+
+
+      newtxt1 = document.getElementById("newtxt1");
+newtxt2 = document.getElementById("newtxt2");
+newtxt3 = document.getElementById("newtxt3");
+newtxt4 = document.getElementById("newtxt4");
+newtxt5 = document.getElementById("newtxt5");
+newtxt6 = document.getElementById("newtxt6");
+newtxt7 = document.getElementById("newtxt7");
+newtxt8 = document.getElementById("newtxt8");
+newtxt9 = document.getElementById("newtxt9");
+newtxt10 = document.getElementById("newtxt10");
+newtxt11 = document.getElementById("newtxt11");
+newtxt12 = document.getElementById("newtxt12");
+newtxt13 = document.getElementById("newtxt13");
+newtxt14 = document.getElementById("newtxt14");
+newtxt15 = document.getElementById("newtxt15");
+newtxt16 = document.getElementById("newtxt16");
+newtxt17 = document.getElementById("newtxt17");
+newtxt18 = document.getElementById("newtxt18");
+newtxt19 = document.getElementById("newtxt19");
+newtxt20 = document.getElementById("newtxt20");
+newtxt21 = document.getElementById("newtxt21");
+newtxt22 = document.getElementById("newtxt22");
+newtxt23 = document.getElementById("newtxt23");
+newtxt24 = document.getElementById("newtxt24");
+newtxt25 = document.getElementById("newtxt25");
+newtxt26 = document.getElementById("newtxt26");
+newtxt27 = document.getElementById("newtxt27");
+newtxt28 = document.getElementById("newtxt28");
+newtxt29 = document.getElementById("newtxt29");
+newtxt30 = document.getElementById("newtxt30");
+newtxt31 = document.getElementById("newtxt31");
+newtxt32 = document.getElementById("newtxt32");
+newtxt33 = document.getElementById("newtxt33");
+newtxt34 = document.getElementById("newtxt34");
+newtxt35 = document.getElementById("newtxt35");
+newtxt36 = document.getElementById("newtxt36");
+newtxt37 = document.getElementById("newtxt37");
+newtxt38 = document.getElementById("newtxt38");
+newtxt39 = document.getElementById("newtxt39");
+newtxt40 = document.getElementById("newtxt40");
+newtxt41 = document.getElementById("newtxt41");
+newtxt42 = document.getElementById("newtxt42");
+newtxt43 = document.getElementById("newtxt43");
+
+
+      newbtn1.addEventListener("click", function () {
+        newbtn1.disabled = true;
+        newbtn1.style.color="red";
+        newtxt1.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn1.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn1.disabled = false;
+            newbtn1.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt1.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn1.disabled = false;
+            newbtn1.style.color="black";
+            newtxt1.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn2.addEventListener("click", function () {
+        newbtn2.disabled = true;
+        newbtn2.style.color="red";
+        newtxt2.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn2.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn2.disabled = false;
+            newbtn2.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt2.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn2.disabled = false;
+            newbtn2.style.color="black";
+            newtxt2.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn3.addEventListener("click", function () {
+        newbtn3.disabled = true;
+        newbtn3.style.color="red";
+        newtxt3.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn3.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn3.disabled = false;
+            newbtn3.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt3.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn3.disabled = false;
+            newbtn3.style.color="black";
+            newtxt3.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn4.addEventListener("click", function () {
+        newbtn4.disabled = true;
+        newbtn4.style.color="red";
+        newtxt4.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn4.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn4.disabled = false;
+            newbtn4.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt4.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn4.disabled = false;
+            newbtn4.style.color="black";
+            newtxt4.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn5.addEventListener("click", function () {
+        newbtn5.disabled = true;
+        newbtn5.style.color="red";
+        newtxt5.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn5.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn5.disabled = false;
+            newbtn5.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt5.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn5.disabled = false;
+            newbtn5.style.color="black";
+            newtxt5.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn6.addEventListener("click", function () {
+        newbtn6.disabled = true;
+        newbtn6.style.color="red";
+        newtxt6.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn6.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn6.disabled = false;
+            newbtn6.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt6.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn6.disabled = false;
+            newbtn6.style.color="black";
+            newtxt6.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn7.addEventListener("click", function () {
+        newbtn7.disabled = true;
+        newbtn7.style.color="red";
+        newtxt7.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn7.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn7.disabled = false;
+            newbtn7.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt7.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn7.disabled = false;
+            newbtn7.style.color="black";
+            newtxt7.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn8.addEventListener("click", function () {
+        newbtn8.disabled = true;
+        newbtn8.style.color="red";
+        newtxt8.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn8.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn8.disabled = false;
+            newbtn8.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt8.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn8.disabled = false;
+            newbtn8.style.color="black";
+            newtxt8.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn9.addEventListener("click", function () {
+        newbtn9.disabled = true;
+        newbtn9.style.color="red";
+        newtxt9.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn9.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn9.disabled = false;
+            newbtn9.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt9.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn9.disabled = false;
+            newbtn9.style.color="black";
+            newtxt9.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn10.addEventListener("click", function () {
+        newbtn10.disabled = true;
+        newbtn10.style.color="red";
+        newtxt10.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn10.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn10.disabled = false;
+            newbtn10.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt10.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn10.disabled = false;
+            newbtn10.style.color="black";
+            newtxt10.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn11.addEventListener("click", function () {
+        newbtn11.disabled = true;
+        newbtn11.style.color="red";
+        newtxt11.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn11.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn11.disabled = false;
+            newbtn11.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt11.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn11.disabled = false;
+            newbtn11.style.color="black";
+            newtxt11.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn12.addEventListener("click", function () {
+        newbtn12.disabled = true;
+        newbtn12.style.color="red";
+        newtxt12.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn12.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn12.disabled = false;
+            newbtn12.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt12.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn12.disabled = false;
+            newbtn12.style.color="black";
+            newtxt12.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn13.addEventListener("click", function () {
+        newbtn13.disabled = true;
+        newbtn13.style.color="red";
+        newtxt13.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn13.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn13.disabled = false;
+            newbtn13.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt13.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn13.disabled = false;
+            newbtn13.style.color="black";
+            newtxt13.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn14.addEventListener("click", function () {
+        newbtn14.disabled = true;
+        newbtn14.style.color="red";
+        newtxt14.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn14.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn14.disabled = false;
+            newbtn14.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt14.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn14.disabled = false;
+            newbtn14.style.color="black";
+            newtxt14.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn15.addEventListener("click", function () {
+        newbtn15.disabled = true;
+        newbtn15.style.color="red";
+        newtxt15.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn15.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn15.disabled = false;
+            newbtn15.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt15.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn15.disabled = false;
+            newbtn15.style.color="black";
+            newtxt15.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn16.addEventListener("click", function () {
+        newbtn16.disabled = true;
+        newbtn16.style.color="red";
+        newtxt16.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn16.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn16.disabled = false;
+            newbtn16.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt16.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn16.disabled = false;
+            newbtn16.style.color="black";
+            newtxt16.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn17.addEventListener("click", function () {
+        newbtn17.disabled = true;
+        newbtn17.style.color="red";
+        newtxt17.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn17.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn17.disabled = false;
+            newbtn17.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt17.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn17.disabled = false;
+            newbtn17.style.color="black";
+            newtxt17.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn18.addEventListener("click", function () {
+        newbtn18.disabled = true;
+        newbtn18.style.color="red";
+        newtxt18.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn18.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn18.disabled = false;
+            newbtn18.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt18.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn18.disabled = false;
+            newbtn18.style.color="black";
+            newtxt18.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn19.addEventListener("click", function () {
+        newbtn19.disabled = true;
+        newbtn19.style.color="red";
+        newtxt19.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn19.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn19.disabled = false;
+            newbtn19.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt19.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn19.disabled = false;
+            newbtn19.style.color="black";
+            newtxt19.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn20.addEventListener("click", function () {
+        newbtn20.disabled = true;
+        newbtn20.style.color="red";
+        newtxt20.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn20.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn20.disabled = false;
+            newbtn20.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt20.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn20.disabled = false;
+            newbtn20.style.color="black";
+            newtxt20.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn21.addEventListener("click", function () {
+        newbtn21.disabled = true;
+        newbtn21.style.color="red";
+        newtxt21.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn21.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn21.disabled = false;
+            newbtn21.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt21.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn21.disabled = false;
+            newbtn21.style.color="black";
+            newtxt21.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn22.addEventListener("click", function () {
+        newbtn22.disabled = true;
+        newbtn22.style.color="red";
+        newtxt22.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn22.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn22.disabled = false;
+            newbtn22.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt22.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn22.disabled = false;
+            newbtn22.style.color="black";
+            newtxt22.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn23.addEventListener("click", function () {
+        newbtn23.disabled = true;
+        newbtn23.style.color="red";
+        newtxt23.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn23.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn23.disabled = false;
+            newbtn23.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt23.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn23.disabled = false;
+            newbtn23.style.color="black";
+            newtxt23.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn24.addEventListener("click", function () {
+        newbtn24.disabled = true;
+        newbtn24.style.color="red";
+        newtxt24.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn24.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn24.disabled = false;
+            newbtn24.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt24.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn24.disabled = false;
+            newbtn24.style.color="black";
+            newtxt24.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn25.addEventListener("click", function () {
+        newbtn25.disabled = true;
+        newbtn25.style.color="red";
+        newtxt25.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn25.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn25.disabled = false;
+            newbtn25.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt25.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn25.disabled = false;
+            newbtn25.style.color="black";
+            newtxt25.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn26.addEventListener("click", function () {
+        newbtn26.disabled = true;
+        newbtn26.style.color="red";
+        newtxt26.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn26.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn26.disabled = false;
+            newbtn26.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt26.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn26.disabled = false;
+            newbtn26.style.color="black";
+            newtxt26.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn27.addEventListener("click", function () {
+        newbtn27.disabled = true;
+        newbtn27.style.color="red";
+        newtxt27.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn27.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn27.disabled = false;
+            newbtn27.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt27.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn27.disabled = false;
+            newbtn27.style.color="black";
+            newtxt27.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn28.addEventListener("click", function () {
+        newbtn28.disabled = true;
+        newbtn28.style.color="red";
+        newtxt28.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn28.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn28.disabled = false;
+            newbtn28.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt28.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn28.disabled = false;
+            newbtn28.style.color="black";
+            newtxt28.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn29.addEventListener("click", function () {
+        newbtn29.disabled = true;
+        newbtn29.style.color="red";
+        newtxt29.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn29.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn29.disabled = false;
+            newbtn29.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt29.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn29.disabled = false;
+            newbtn29.style.color="black";
+            newtxt29.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn30.addEventListener("click", function () {
+        newbtn30.disabled = true;
+        newbtn30.style.color="red";
+        newtxt30.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn30.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn30.disabled = false;
+            newbtn30.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt30.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn30.disabled = false;
+            newbtn30.style.color="black";
+            newtxt30.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn31.addEventListener("click", function () {
+        newbtn31.disabled = true;
+        newbtn31.style.color="red";
+        newtxt31.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn31.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn31.disabled = false;
+            newbtn31.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt31.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn31.disabled = false;
+            newbtn31.style.color="black";
+            newtxt31.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn32.addEventListener("click", function () {
+        newbtn32.disabled = true;
+        newbtn32.style.color="red";
+        newtxt32.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn32.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn32.disabled = false;
+            newbtn32.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt32.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn32.disabled = false;
+            newbtn32.style.color="black";
+            newtxt32.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn33.addEventListener("click", function () {
+        newbtn33.disabled = true;
+        newbtn33.style.color="red";
+        newtxt33.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn33.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn33.disabled = false;
+            newbtn33.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt33.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn33.disabled = false;
+            newbtn33.style.color="black";
+            newtxt33.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn34.addEventListener("click", function () {
+        newbtn34.disabled = true;
+        newbtn34.style.color="red";
+        newtxt34.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn34.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn34.disabled = false;
+            newbtn34.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt34.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn34.disabled = false;
+            newbtn34.style.color="black";
+            newtxt34.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn35.addEventListener("click", function () {
+        newbtn35.disabled = true;
+        newbtn35.style.color="red";
+        newtxt35.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn35.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn35.disabled = false;
+            newbtn35.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt35.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn35.disabled = false;
+            newbtn35.style.color="black";
+            newtxt35.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+newbtn36.addEventListener("click", function () {
+        newbtn36.disabled = true;
+        newbtn36.style.color="red";
+        newtxt36.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn36.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn36.disabled = false;
+            newbtn36.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt36.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn36.disabled = false;
+            newbtn36.style.color="black";
+            newtxt36.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+newbtn37.addEventListener("click", function () {
+        newbtn37.disabled = true;
+        newbtn37.style.color="red";
+        newtxt37.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn37.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn37.disabled = false;
+            newbtn37.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt37.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn37.disabled = false;
+            newbtn37.style.color="black";
+            newtxt37.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+newbtn38.addEventListener("click", function () {
+        newbtn38.disabled = true;
+        newbtn38.style.color="red";
+        newtxt38.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn38.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn38.disabled = false;
+            newbtn38.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt38.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn38.disabled = false;
+            newbtn38.style.color="black";
+            newtxt38.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+newbtn39.addEventListener("click", function () {
+        newbtn39.disabled = true;
+        newbtn39.style.color="red";
+        newtxt39.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn39.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn39.disabled = false;
+            newbtn39.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt39.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn39.disabled = false;
+            newbtn39.style.color="black";
+            newtxt39.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+newbtn40.addEventListener("click", function () {
+        newbtn40.disabled = true;
+        newbtn40.style.color="red";
+        newtxt40.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn40.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn40.disabled = false;
+            newbtn40.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt40.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn40.disabled = false;
+            newbtn40.style.color="black";
+            newtxt40.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+newbtn41.addEventListener("click", function () {
+        newbtn41.disabled = true;
+        newbtn41.style.color="red";
+        newtxt41.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn41.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn41.disabled = false;
+            newbtn41.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt41.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn41.disabled = false;
+            newbtn41.style.color="black";
+            newtxt41.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+newbtn42.addEventListener("click", function () {
+        newbtn42.disabled = true;
+        newbtn42.style.color="red";
+        newtxt42.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn42.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn42.disabled = false;
+            newbtn42.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt42.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn42.disabled = false;
+            newbtn42.style.color="black";
+            newtxt42.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+newbtn43.addEventListener("click", function () {
+        newbtn43.disabled = true;
+        newbtn43.style.color="red";
+        newtxt43.innerHTML = "";
+
+        if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
+          alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
+          newbtn43.disabled = false;
+          return;
+        }
+        var speechConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+
+        speechConfig.speechRecognitionLanguage = "en-US";
+        let language = "en"
+        speechConfig.addTargetLanguage(language)
+
+        var audioConfig  = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        recognizerone = new SpeechSDK.TranslationRecognizer(speechConfig, audioConfig);
+
+        recognizerone.recognizeOnceAsync(
+          function (result) {
+            newbtn43.disabled = false;
+            newbtn43.style.color="black";
+            let translation = result.translations.get(language);
+            window.console.log(translation);
+            newtxt43.innerHTML += translation;
+
+            recognizerone.close();
+            recognizerone = undefined;
+          },
+          function (err) {
+            newbtn43.disabled = false;
+            newbtn43.style.color="black";
+            newtxt43.innerHTML += err;
+            window.console.log(err);
+
+            recognizerone.close();
+            recognizerone = undefined;
+          });
+      });
+
+
+
+
+
+
+
+
+      if (!!window.SpeechSDK) {
+        SpeechSDK = window.SpeechSDK;
+newbtn1.disabled=false;
+newbtn1.style.color="black";
+
+
+newbtn2.disabled=false;
+newbtn2.style.color="black";
+
+
+newbtn3.disabled=false;
+newbtn3.style.color="black";
+
+
+newbtn4.disabled=false;
+newbtn4.style.color="black";
+
+
+newbtn5.disabled=false;
+newbtn5.style.color="black";
+
+
+newbtn6.disabled=false;
+newbtn6.style.color="black";
+
+
+newbtn7.disabled=false;
+newbtn7.style.color="black";
+
+
+newbtn8.disabled=false;
+newbtn8.style.color="black";
+
+
+newbtn9.disabled=false;
+newbtn9.style.color="black";
+
+
+newbtn10.disabled=false;
+newbtn10.style.color="black";
+
+
+newbtn11.disabled=false;
+newbtn11.style.color="black";
+
+
+newbtn12.disabled=false;
+newbtn12.style.color="black";
+
+
+newbtn13.disabled=false;
+newbtn13.style.color="black";
+
+
+newbtn14.disabled=false;
+newbtn14.style.color="black";
+
+
+newbtn15.disabled=false;
+newbtn15.style.color="black";
+
+
+newbtn16.disabled=false;
+newbtn16.style.color="black";
+
+
+newbtn17.disabled=false;
+newbtn17.style.color="black";
+
+
+newbtn18.disabled=false;
+newbtn18.style.color="black";
+
+
+newbtn19.disabled=false;
+newbtn19.style.color="black";
+
+
+newbtn20.disabled=false;
+newbtn20.style.color="black";
+
+
+newbtn21.disabled=false;
+newbtn21.style.color="black";
+
+
+newbtn22.disabled=false;
+newbtn22.style.color="black";
+
+
+newbtn23.disabled=false;
+newbtn23.style.color="black";
+
+
+newbtn24.disabled=false;
+newbtn24.style.color="black";
+
+
+newbtn25.disabled=false;
+newbtn25.style.color="black";
+
+
+newbtn26.disabled=false;
+newbtn26.style.color="black";
+
+
+newbtn27.disabled=false;
+newbtn27.style.color="black";
+
+
+newbtn28.disabled=false;
+newbtn28.style.color="black";
+
+
+newbtn29.disabled=false;
+newbtn29.style.color="black";
+
+
+newbtn30.disabled=false;
+newbtn30.style.color="black";
+
+
+newbtn31.disabled=false;
+newbtn31.style.color="black";
+
+
+newbtn32.disabled=false;
+newbtn32.style.color="black";
+
+
+newbtn33.disabled=false;
+newbtn33.style.color="black";
+
+
+newbtn34.disabled=false;
+newbtn34.style.color="black";
+
+
+newbtn35.disabled=false;
+newbtn35.style.color="black";
+
+
+newbtn36.disabled=false;
+newbtn36.style.color="black";
+
+newbtn37.disabled=false;
+newbtn37.style.color="black";
+
+newbtn38.disabled=false;
+newbtn38.style.color="black";
+
+newbtn39.disabled=false;
+newbtn39.style.color="black";
+
+newbtn40.disabled=false;
+newbtn40.style.color="black";
+
+newbtn41.disabled=false;
+newbtn41.style.color="black";
+
+newbtn42.disabled=false;
+newbtn42.style.color="black";
+
+newbtn43.disabled=false;
+newbtn43.style.color="black";
+
+
+
+        document.getElementById('newc1').style.display = 'block';
+
+document.getElementById('newc2').style.display = 'block';
+
+document.getElementById('newc3').style.display = 'block';
+
+document.getElementById('newc4').style.display = 'block';
+
+document.getElementById('newc5').style.display = 'block';
+
+document.getElementById('newc6').style.display = 'block';
+
+document.getElementById('newc7').style.display = 'block';
+
+document.getElementById('newc8').style.display = 'block';
+
+document.getElementById('newc9').style.display = 'block';
+
+document.getElementById('newc10').style.display = 'block';
+
+document.getElementById('newc11').style.display = 'block';
+
+document.getElementById('newc12').style.display = 'block';
+
+document.getElementById('newc13').style.display = 'block';
+
+document.getElementById('newc14').style.display = 'block';
+
+document.getElementById('newc15').style.display = 'block';
+
+document.getElementById('newc16').style.display = 'block';
+
+document.getElementById('newc17').style.display = 'block';
+
+document.getElementById('newc18').style.display = 'block';
+
+document.getElementById('newc19').style.display = 'block';
+
+document.getElementById('newc20').style.display = 'block';
+
+document.getElementById('newc21').style.display = 'block';
+
+document.getElementById('newc22').style.display = 'block';
+
+document.getElementById('newc23').style.display = 'block';
+
+document.getElementById('newc24').style.display = 'block';
+
+document.getElementById('newc25').style.display = 'block';
+
+document.getElementById('newc26').style.display = 'block';
+
+document.getElementById('newc27').style.display = 'block';
+
+document.getElementById('newc28').style.display = 'block';
+
+document.getElementById('newc29').style.display = 'block';
+
+document.getElementById('newc30').style.display = 'block';
+
+document.getElementById('newc31').style.display = 'block';
+
+document.getElementById('newc32').style.display = 'block';
+
+document.getElementById('newc33').style.display = 'block';
+
+document.getElementById('newc34').style.display = 'block';
+
+document.getElementById('newc35').style.display = 'block';
+
+document.getElementById('newc36').style.display = 'block';
+
+document.getElementById('newc37').style.display = 'block';
+
+document.getElementById('newc38').style.display = 'block';
+
+document.getElementById('newc39').style.display = 'block';
+
+document.getElementById('newc40').style.display = 'block';
+
+document.getElementById('newc41').style.display = 'block';
+
+document.getElementById('newc42').style.display = 'block';
+
+document.getElementById('newc43').style.display = 'block';
+
+
+
+
+
+        document.getElementById('warning').style.display = 'none';
+      }
+
+  </script>
